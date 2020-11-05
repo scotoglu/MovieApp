@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/profile1"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@mipmap/fav"
+            android:title="Favorites" />
+        <item
+            android:id="@+id/nav_mov_lists"
+            android:icon="@mipmap/list"
+            android:title="Movie Lists" />
+        <item
+            android:id="@+id/nav_rated"
+            android:icon="@mipmap/rating"
+            android:title="Rated" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/settings1"
+            android:title="Settings" />
+
+    </group>
+</menu>
